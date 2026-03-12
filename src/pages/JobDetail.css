@@ -1,0 +1,143 @@
+/* ── HEADER ── */
+.job-detail-header {
+  background:linear-gradient(135deg,#071a10 0%,#0f5c3e 55%,#187a52 100%);
+  color:white;
+  padding:36px 0 32px;
+}
+.back-link {
+  display:inline-flex; align-items:center; gap:7px;
+  color:rgba(255,255,255,.75); text-decoration:none;
+  font-size:.88rem; font-weight:600; margin-bottom:22px;
+  transition:color .2s;
+}
+.back-link:hover { color:white; }
+
+.job-detail-top {
+  display:flex; align-items:center; gap:22px; margin-bottom:20px;
+  flex-wrap:wrap;
+}
+.job-school-logo {
+  width:70px; height:70px;
+  background:rgba(255,255,255,.18);
+  border:2px solid rgba(255,255,255,.25);
+  border-radius:18px;
+  display:flex; align-items:center; justify-content:center;
+  font-weight:800; font-size:2rem; flex-shrink:0;
+}
+.job-detail-top h1 { font-size:1.75rem; font-weight:800; margin-bottom:8px; line-height:1.2; }
+.job-detail-school {
+  display:flex; align-items:center; gap:10px;
+  opacity:.85; font-size:.92rem; flex-wrap:wrap;
+}
+.verified-badge {
+  display:inline-flex; align-items:center; gap:4px;
+  background:rgba(255,255,255,.15); border:1px solid rgba(255,255,255,.25);
+  padding:3px 10px; border-radius:20px; font-size:.76rem; font-weight:700;
+}
+.job-detail-meta {
+  display:flex; align-items:center; gap:18px;
+  flex-wrap:wrap; font-size:.88rem; opacity:.9; margin-top:4px;
+}
+.job-detail-meta span { display:flex; align-items:center; gap:6px; }
+
+/* ── BODY ── */
+.job-detail-body {
+  display:grid;
+  grid-template-columns:1fr 340px;
+  gap:28px;
+  padding-top:36px;
+  padding-bottom:64px;
+  align-items:start;
+}
+
+/* ── MAIN ── */
+.job-detail-main .card { margin-bottom:24px; }
+.job-detail-main .card h2 { font-size:1.2rem; font-weight:800; margin-bottom:16px; color:var(--text); }
+.job-detail-main .card h3 { font-size:1rem; font-weight:700; margin:22px 0 10px; color:var(--text); }
+.job-detail-main .card p  { color:var(--text-mid); line-height:1.8; font-size:.92rem; }
+.job-detail-main .card ul { padding-left:20px; margin:0; }
+.job-detail-main .card ul li { color:var(--text-mid); margin-bottom:8px; line-height:1.65; font-size:.9rem; }
+
+.tags-row { display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
+.tag {
+  background:var(--bg); border:1px solid var(--border);
+  padding:5px 14px; border-radius:20px;
+  font-size:.8rem; font-weight:600; color:var(--text);
+}
+
+/* ── SIDEBAR ── */
+.job-detail-sidebar { display:flex; flex-direction:column; gap:20px; }
+.job-detail-sidebar .card h3 { font-size:.98rem; font-weight:700; margin-bottom:14px; }
+
+/* Apply card */
+.apply-card {
+  background:linear-gradient(140deg,#0a3d28,#0f5c3e,#187a52);
+  color:white; border:none;
+}
+.apply-card h3 { color:white; font-size:1.1rem; }
+.apply-card > p { color:rgba(255,255,255,.82); margin-bottom:20px; font-size:.9rem; }
+.apply-card .btn-apply {
+  display:block; width:100%; text-align:center;
+  background:white; color:var(--primary);
+  font-weight:800; padding:14px; border-radius:var(--radius);
+  border:none; cursor:pointer; font-family:inherit; font-size:.95rem;
+  transition:all .2s;
+}
+.apply-card .btn-apply:hover { background:#f0faf5; transform:translateY(-2px); }
+.apply-card .btn-apply:disabled { opacity:.6; cursor:not-allowed; transform:none; }
+.applied-success {
+  display:flex; align-items:center; gap:10px; justify-content:center;
+  background:rgba(255,255,255,.15); border:1px solid rgba(255,255,255,.3);
+  border-radius:var(--radius); padding:14px; font-weight:700; font-size:.95rem;
+}
+.apply-note { font-size:.8rem; margin-top:12px; text-align:center; opacity:.8; }
+.apply-note a { color:rgba(255,255,255,.9); text-decoration:underline; }
+
+/* Resume warning in apply card */
+.resume-warning {
+  background:rgba(255,120,73,.15); border:1px solid rgba(255,120,73,.4);
+  border-radius:var(--radius); padding:12px 14px; margin-bottom:16px;
+  font-size:.82rem; line-height:1.5;
+}
+.resume-warning a { color:#fbbf4a; font-weight:700; text-decoration:underline; }
+
+/* Overview */
+.overview-list { display:flex; flex-direction:column; gap:12px; }
+.overview-list div {
+  display:flex; justify-content:space-between; align-items:center;
+  padding-bottom:10px; border-bottom:1px solid var(--border);
+}
+.overview-list div:last-child { border-bottom:none; padding-bottom:0; }
+.overview-list span { color:var(--text-muted); font-size:.84rem; }
+.overview-list strong { font-size:.88rem; font-weight:700; }
+
+/* School card */
+.school-detail-card p { font-size:.88rem; color:var(--text-muted); margin-bottom:4px; line-height:1.6; }
+.school-detail-card strong { color:var(--text); font-size:.95rem; }
+.school-link {
+  display:inline-flex; align-items:center; gap:6px;
+  color:var(--primary); font-weight:700; font-size:.88rem;
+  text-decoration:none; margin-top:8px; transition:color .2s;
+}
+.school-link:hover { text-decoration:underline; }
+
+/* Modal */
+.modal-resume-note {
+  background:#e6f4ee; border:1px solid var(--border);
+  border-radius:10px; padding:12px 14px; margin-bottom:16px;
+  font-size:.82rem; color:var(--text-mid); display:flex; align-items:center; gap:8px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width:900px) {
+  .job-detail-body { grid-template-columns:1fr; gap:20px; }
+  .job-detail-sidebar { order:-1; }
+  .job-detail-top h1 { font-size:1.45rem; }
+}
+@media (max-width:480px) {
+  .job-school-logo { width:52px; height:52px; font-size:1.5rem; }
+  .job-detail-top h1 { font-size:1.25rem; }
+  .modal { padding:24px 18px; }
+  .modal-actions { flex-direction:column; }
+  .modal-actions .btn { width:100%; justify-content:center; }
+}
