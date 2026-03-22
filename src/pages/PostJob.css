@@ -33,7 +33,7 @@
 }
 .list-item {
   display: flex; align-items: center; gap: 8px;
-  background: #e6f4ee; color: var(--primary);
+  background: #dbeafe; color: var(--accent);
   padding: 6px 12px; border-radius: 20px;
   font-size: .83rem; font-weight: 600;
 }

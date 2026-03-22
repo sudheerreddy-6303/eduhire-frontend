@@ -58,7 +58,7 @@ export default function SchoolRegister() {
   return (
     <div className="auth-page">
       <div className="auth-card" style={{ maxWidth: 580 }}>
-        <div className="auth-brand"><GraduationCap size={30}/><span>EduHire</span></div>
+        <div className="auth-brand"><span style={{fontSize:"1.5rem",fontWeight:800,letterSpacing:"-.5px"}}><span style={{color:"var(--primary)"}}>Acad</span><span style={{color:"var(--accent)"}}>HR</span></span></div>
         <h1>Register Your Institution</h1>
         <p className="auth-sub">Find qualified teachers for your school or college</p>
 

@@ -12,7 +12,7 @@
 .job-card:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow-lg);
-  border-color: var(--primary);
+  border-color: var(--accent);
 }
 
 .job-card-header {
@@ -23,7 +23,7 @@
 
 .school-logo {
   width: 48px; height: 48px;
-  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  background: linear-gradient(135deg, var(--primary), var(--accent));
   color: white;
   border-radius: 12px;
   display: flex;
@@ -52,7 +52,7 @@
   font-weight: 500;
 }
 
-.verified-icon { color: #2563eb; }
+.verified-icon { color: var(--accent); }
 
 .job-card-details {
   display: flex;

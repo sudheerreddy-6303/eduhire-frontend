@@ -2,7 +2,7 @@
 
 /* ─── HERO ─── */
 .hero {
-  background: linear-gradient(145deg, #071a10 0%, #0f5c3e 45%, #187a52 75%, #1d9260 100%);
+  background: linear-gradient(145deg, #0d1a36 0%, #1a2d5a 40%, #243d7a 70%, #2979d4 100%);
   color: white;
   padding: 90px 0 0;
   position: relative;
@@ -309,7 +309,7 @@
 .jobs-grid-home { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 
 /* ─── HOW IT WORKS ─── */
-.how-section { background: linear-gradient(180deg, white 0%, #f0faf5 100%); }
+.how-section { background: linear-gradient(180deg, white 0%, #eef2fa 100%); }
 .how-tabs-content { display: grid; grid-template-columns: 1fr 1px 1fr; gap: 60px; margin-top: 56px; align-items: start; }
 .how-divider { background: var(--border); }
 .how-panel-label {
@@ -322,7 +322,7 @@
   padding: 10px 20px;
   border-radius: var(--radius);
 }
-.for-teachers { background: #e6f4ee; color: var(--primary); }
+.for-teachers { background: #e6f0ff; color: var(--primary); }
 .for-schools { background: #fff3e0; color: #c77700; }
 
 .how-steps { margin-bottom: 36px; }
@@ -398,7 +398,7 @@
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-bottom: 8px;
-  background: #e6f4ee;
+  background: #e6f0ff;
   display: inline-block;
   padding: 3px 10px;
   border-radius: 20px;
@@ -437,7 +437,7 @@
 .cta-section { padding: 96px 0; background: var(--bg); }
 .cta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
 .cta-card { border-radius: var(--radius-xl); padding: 52px 44px; }
-.cta-teacher { background: linear-gradient(140deg, #0a3d28, #0f5c3e, #187a52); color: white; }
+.cta-teacher { background: linear-gradient(140deg, #0d1a36, #1a2d5a, #2979d4); color: white; }
 .cta-school { background: linear-gradient(140deg, #7c3a00, #c77700, #e08c00); color: white; }
 .cta-icon { font-size: 3rem; margin-bottom: 20px; }
 .cta-card h2 { font-size: 2rem; font-weight: 800; margin-bottom: 14px; }
@@ -447,7 +447,7 @@
 .cta-list li svg { flex-shrink: 0; }
 .btn-white { background: white; font-weight: 800; }
 .cta-teacher .btn-white { color: var(--primary); }
-.cta-teacher .btn-white:hover { background: #f0faf5; }
+.cta-teacher .btn-white:hover { background: #eef2fa; }
 .cta-school .btn-white { color: #c77700; }
 .cta-school .btn-white:hover { background: #fff8e6; }
 

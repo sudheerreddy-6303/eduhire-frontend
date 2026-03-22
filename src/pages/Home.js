@@ -29,9 +29,9 @@ const SUBJECTS = [
 ];
 
 const TESTIMONIALS = [
-  { name: 'Priya Sharma', role: 'Mathematics Teacher', school: 'Placed at DPS Noida', text: 'EduHire made my job search completely stress-free. I received interview calls within 48 hours of completing my profile. The platform is intuitive and the schools are all verified.', rating: 5, avatar: 'P' },
-  { name: 'Rajesh Kumar', role: 'Physics Lecturer', school: 'Placed at NIT Bangalore', text: 'As someone looking for a senior position, I was impressed by the quality of institutions on EduHire. The salary filters helped me find roles that matched my expectations perfectly.', rating: 5, avatar: 'R' },
-  { name: 'Anita Nair', role: 'English Teacher', school: 'Placed at St. Mary\'s', text: 'The application process is so seamless. I could apply to 10 jobs in under an hour. Within 2 weeks I had my dream job. I recommend EduHire to every educator I know!', rating: 5, avatar: 'A' },
+  { name: 'Priya Sharma', role: 'Mathematics Teacher', school: 'Placed at DPS Noida', text: 'AcadHR made my job search completely stress-free. I received interview calls within 48 hours of completing my profile. The platform is intuitive and the schools are all verified.', rating: 5, avatar: 'P' },
+  { name: 'Rajesh Kumar', role: 'Physics Lecturer', school: 'Placed at NIT Bangalore', text: 'As someone looking for a senior position, I was impressed by the quality of institutions on AcadHR. The salary filters helped me find roles that matched my expectations perfectly.', rating: 5, avatar: 'R' },
+  { name: 'Anita Nair', role: 'English Teacher', school: 'Placed at St. Mary\'s', text: 'The application process is so seamless. I could apply to 10 jobs in under an hour. Within 2 weeks I had my dream job. I recommend AcadHR to every educator I know!', rating: 5, avatar: 'A' },
 ];
 
 const CITIES = ['New Delhi', 'Mumbai', 'Bangalore', 'Chennai', 'Hyderabad', 'Pune', 'Kolkata', 'Jaipur', 'Ahmedabad', 'Lucknow'];
@@ -159,7 +159,7 @@ export default function Home() {
               <div className="trust-avatars">
                 {['R','P','A','M','K'].map((l,i) => <div key={i} className="trust-avatar" style={{background: ['#0f5c3e','#1a56db','#c77700','#e91e8c','#22a06b'][i]}}>{l}</div>)}
               </div>
-              <p><strong>10,000+ teachers</strong> found jobs through EduHire</p>
+              <p><strong>10,000+ teachers</strong> found jobs through AcadHR</p>
             </div>
           </div>
 
@@ -306,7 +306,7 @@ export default function Home() {
         <div className="container">
           <div className="text-center">
             <div className="section-eyebrow"><GraduationCap size={14} /> Simple Process</div>
-            <h2 className="section-title">How EduHire Works</h2>
+            <h2 className="section-title">How AcadHR Works</h2>
             <p className="section-subtitle">From profile to placement in just a few simple steps — for both teachers and institutions.</p>
           </div>
 
@@ -378,9 +378,9 @@ export default function Home() {
       <section className="section features-section">
         <div className="container">
           <div className="text-center">
-            <div className="section-eyebrow"><Star size={14} /> Why EduHire</div>
+            <div className="section-eyebrow"><Star size={14} /> Why AcadHR</div>
             <h2 className="section-title">Everything You Need to Succeed</h2>
-            <p className="section-subtitle">We've built EduHire from the ground up for the education sector — not as an afterthought.</p>
+            <p className="section-subtitle">We've built AcadHR from the ground up for the education sector — not as an afterthought.</p>
           </div>
           <div className="features-grid">
             {FEATURES.map(({ icon: Icon, title, desc, stat }) => (
@@ -402,7 +402,7 @@ export default function Home() {
         <div className="container">
           <div className="text-center">
             <div className="section-eyebrow"><Quote size={14} /> Success Stories</div>
-            <h2 className="section-title">Teachers Love EduHire</h2>
+            <h2 className="section-title">Teachers Love AcadHR</h2>
             <p className="section-subtitle">Don't take our word for it — hear from educators who found their dream positions.</p>
           </div>
           <div className="testimonials-grid">
@@ -432,7 +432,7 @@ export default function Home() {
             <div className="cta-card cta-teacher">
               <div className="cta-icon">🎓</div>
               <h2>I'm a Teacher</h2>
-              <p>Join 10,000+ educators who found their perfect position through EduHire. Create your free profile and start applying today.</p>
+              <p>Join 10,000+ educators who found their perfect position through AcadHR. Create your free profile and start applying today.</p>
               <ul className="cta-list">
                 <li><CheckCircle size={16} /> Free to join, always</li>
                 <li><CheckCircle size={16} /> Apply to unlimited jobs</li>

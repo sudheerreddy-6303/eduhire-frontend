@@ -29,8 +29,8 @@ export default function Login() {
     <div className="auth-page">
       <div className="auth-card">
         <div className="auth-brand">
-          <GraduationCap size={32} />
-          <span>EduHire</span>
+          
+          <span style={{fontSize:'1.5rem',fontWeight:800,letterSpacing:'-.5px'}}><span style={{color:'var(--primary)'}}>Acad</span><span style={{color:'var(--accent)'}}>HR</span></span>
         </div>
         <h1>Welcome Back</h1>
         <p className="auth-sub">Sign in to your account</p>

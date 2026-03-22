@@ -28,7 +28,7 @@ export default function TeacherRegister() {
     setLoading(true);
     try {
       await registerTeacher(form);
-      toast.success('Welcome to EduHire!');
+      toast.success('Welcome to AcadHR!');
       navigate('/teacher/dashboard');
     } catch (err) {
       toast.error(err.response?.data?.message || 'Registration failed');
@@ -39,7 +39,7 @@ export default function TeacherRegister() {
   return (
     <div className="auth-page">
       <div className="auth-card" style={{ maxWidth: 560 }}>
-        <div className="auth-brand"><GraduationCap size={32} /><span>EduHire</span></div>
+        <div className="auth-brand"><span style={{fontSize:'1.5rem',fontWeight:800,letterSpacing:'-.5px'}}><span style={{color:'var(--primary)'}}>Acad</span><span style={{color:'var(--accent)'}}>HR</span></span></div>
         <h1>Create Teacher Profile</h1>
         <p className="auth-sub">Join thousands of educators finding their dream jobs</p>
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { GraduationCap, Menu, X, ChevronDown, LogOut, LayoutDashboard, Shield } from 'lucide-react';
+import { Menu, X, ChevronDown, LogOut, LayoutDashboard, Shield } from "lucide-react";
 import './Navbar.css';
 
 export default function Navbar() {
@@ -25,8 +25,8 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="container navbar-inner">
         <Link to="/" className="navbar-brand" onClick={close}>
-          <GraduationCap size={27}/>
-          <span>EduHire</span>
+          <img src="/logo.png" alt="AcadHR" style={{height:36}} onError={e=>{e.target.style.display="none"}}/>
+          <span><span style={{color:"#1a2d5a",fontWeight:800}}>Acad</span><span style={{color:"#2979d4",fontWeight:800}}>HR</span></span>
         </Link>
 
         {/* Desktop links */}

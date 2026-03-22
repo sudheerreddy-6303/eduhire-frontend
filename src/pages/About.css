@@ -35,7 +35,7 @@
   text-align: center;
   margin-top: 40px;
   padding: 48px;
-  background: linear-gradient(135deg, #f0faf5, #e8f5ee);
+  background: linear-gradient(135deg, #eef2fa, #dbeafe);
 }
 .about-cta h2 { font-size: 1.6rem; margin-bottom: 12px; }
 .about-cta p { color: var(--text-muted); max-width: 500px; margin: 0 auto; }

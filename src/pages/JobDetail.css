@@ -1,6 +1,6 @@
 /* ── HEADER ── */
 .job-detail-header {
-  background:linear-gradient(135deg,#071a10 0%,#0f5c3e 55%,#187a52 100%);
+  background:linear-gradient(135deg,#0d1a36 0%,#1a2d5a 55%,#2979d4 100%);
   color:white;
   padding:36px 0 32px;
 }
@@ -71,7 +71,7 @@
 
 /* Apply card */
 .apply-card {
-  background:linear-gradient(140deg,#0a3d28,#0f5c3e,#187a52);
+  background:linear-gradient(140deg,#0d1a36,#1a2d5a,#2979d4);
   color:white; border:none;
 }
 .apply-card h3 { color:white; font-size:1.1rem; }
@@ -123,7 +123,7 @@
 
 /* Modal */
 .modal-resume-note {
-  background:#e6f4ee; border:1px solid var(--border);
+  background:#e6f0ff; border:1px solid var(--border);
   border-radius:10px; padding:12px 14px; margin-bottom:16px;
   font-size:.82rem; color:var(--text-mid); display:flex; align-items:center; gap:8px;
 }
